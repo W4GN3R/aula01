@@ -1,0 +1,38 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    background-color: #013462;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.header-top span {
+    display: flex;
+    align-items: center;
+}
+.header-top span:before {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding-right: 20px; 
+}
+.header-top .phone:before {
+    content: "";
+    background: url(../img/phone.svg) no-repeat center;
+}
+.header-top .mail:before {
+    content: "";
+    background: url(../img/mail.svg) no-repeat center;
+}
+.header-top .location:before {
+    content: "";
+    background: url(../img/locate.svg) no-repeat center;
+}
