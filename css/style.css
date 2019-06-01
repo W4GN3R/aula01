@@ -5,9 +5,14 @@
     display: flex;
     flex-direction: column;
 }
-
+.header h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: #000;
+    text-shadow: 2px 1px 3px #000;
+}
 .header-top {
-    background-color: #013462;
+    background-color: #000;
     color: #fff;
     display: flex;
     justify-content: space-around;
@@ -35,4 +40,88 @@
 .header-top .location:before {
     content: "";
     background: url(../img/locate.svg) no-repeat center;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #ededed;
+    box-shadow: 0px 0px 7px #000;
+    align-items: center;
+}
+ 
+.navigation a {
+    color: #000;
+    text-decoration: none;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.wrapper-top img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper-middle {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+
+.middle-left {
+    margin-right: 30px;
+}
+
+.middle-left .title {
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    color: #013462;
+    padding-bottom: 30px;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.middle-left .title span {
+    border-bottom: 0.1px solid #ccc;
+}
+
+.middle-left .title span:after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #f00;
+    display: flex;
+    margin-top: 10px; 
+}
+
+.middle-left .text {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 20px 0;
+}
+
+.middle-left a {
+    border: 1px solid #000;
+    color: #000;
+    padding: 15px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.middle-left a:hover {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    outline: 2px solid #000; 
 }
